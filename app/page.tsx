@@ -141,7 +141,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song_muslim.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
       <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] bg-cover bg-no-repeat
@@ -269,7 +269,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-28 3xl:gap-56">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-28 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -297,11 +297,11 @@ export default function Home() {
           </div>
 
 
-          <div className="flex items-center pt-30 lg:pt-50 3xl:pt-90">
+          <div className="flex items-center pt-30 lg:pt-50 3xl:pt-90 3xl:gap-60">
             <Image
               src="/assets/couple_one.webp"
               alt="couple" width={900} height={1200}
-              className="w-60 h-80 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-346 object-cover"/>
+              className="w-65 h-90 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-346 object-cover"/>
 
             {/* Center Text */}
             <div className="flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0">
@@ -321,7 +321,7 @@ export default function Home() {
       <CoupleMessage />
 
       <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-250 md:h-179 lg:h-333 3xl:h-419 flex flex-col items-center relative">
+        <div className="h-255 md:h-179 lg:h-333 3xl:h-419 flex flex-col items-center relative">
           <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-28 w-42 h-48 md:top-41 md:w-28 md:h-35 lg:top-78 lg:w-48 lg:h-55 3xl:top-101" />
         </div>
       </div>
