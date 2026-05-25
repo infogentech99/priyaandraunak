@@ -37,8 +37,8 @@ export default function FallingLamps() {
         return (
           <motion.img
             key={i}
-            src="/assets/lamp.avif"
-            alt=""
+            src="/assets/lamp.png"
+            alt="lamp"
             className="absolute opacity-90"
             style={{
               left: `${left}%`,
