@@ -42,47 +42,64 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      title_ceremony: "Mehendi",
-      image: "/assets/mehendi.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 9pm Onwards</>,
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
-    },
 
     {
-      title_ceremony: "Haldi",
+      title_ceremony: "Haldi Ki Rasam",
       image: "/assets/haldi.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
+      date: "Wednesday, December 9th 2026",
+      time: "9:00am Onwards",
+      venue: "Hotel Park Paradise",
+      venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
       link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
     },
     {
-      title_ceremony: "Cocktail",
-      image: "/assets/cocktail.webp",
-      venue_address: <>Friday, March 9th 2026<br /> JW Mariott, Mussoorie <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+      title_ceremony: "Phool Ki Holi",
+      image: "/assets/phool.webp",
+      date: "Wednesday, December 9th 2026",
+      time: "11:00am Onwards",
+      venue: "Hotel Park Paradise",
+      venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
+      link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
+    },
+
+
+    {
+      title_ceremony: "Sangeet Night",
+      image: "/assets/dance.webp",
+      date: "Wednesday, December 9th 2026",
+      time: "7:00pm Onwards",
+      venue: "Hotel Park Paradise",
+      venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
+      link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
     },
 
     {
-      title_ceremony: "Engagement",
-      image: "/assets/engagement.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+      title_ceremony: "Mayra Rasam",
+      image: "/assets/mayra.webp",
+      date: "Thursday, December 10th 2026 ",
+      time: "10:00am Onwards",
+      venue: "Hotel Park Paradise",
+      venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
+      link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
     },
 
     {
-      title_ceremony: "Shaadi",
+      title_ceremony: "Shubh Vivah",
       image: "/assets/shaadi.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
+      date: "Thursday, December 10th 2026 ",
+      time: "7:00pm Onwards",
+      venue: "Hotel Park Paradise",
+      venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
+      link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
     },
 
 
-    {
-      title_ceremony: "Reception",
-      image: "/assets/reception.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
-    },
+    // {
+    //   title_ceremony: "Reception",
+    //   image: "/assets/reception.webp",
+    //   venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
+    //   link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+    // },
 
 
   ];
@@ -149,117 +166,124 @@ export default function Home() {
 
         {/* Decorative Lamps - Natural Flow Pattern */}
         {/* Left-to-Right Lamps - Less crowded */}
-        <FloatingLamp className="absolute top-10 left-8 w-40 h-40 transform rotate-12 opacity-90" />
-        <FloatingLamp className="absolute top-30 left-20 w-36 h-36 transform rotate-45 opacity-80" />
-        <FloatingLamp className="absolute top-50 left-40 w-32 h-32 transform rotate-30 opacity-85" />
-        <FloatingLamp className="absolute top-70 left-60 w-38 h-38 transform rotate-15 opacity-80" />
-        <FloatingLamp className="absolute top-90 left-80 w-34 h-34 transform rotate-25 opacity-75" />
-        <FloatingLamp className="absolute top-110 left-100 w-28 h-28 transform rotate-10 opacity-85" />
-        <FloatingLamp className="absolute top-130 left-120 w-36 h-36 transform rotate-35 opacity-75" />
-        <FloatingLamp className="absolute top-150 left-140 w-30 h-30 transform rotate-22 opacity-85" />
-        <FloatingLamp className="absolute top-170 left-160 w-32 h-32 transform rotate-18 opacity-80" />
-        <FloatingLamp className="absolute top-190 left-180 w-40 h-40 transform rotate-28 opacity-85" />
+        <FloatingLamp className="absolute top-10 left-8 w-14 h-14 transform rotate-12 opacity-90" />
+        <FloatingLamp className="absolute top-30 left-20 w-15 h-15 transform rotate-45 opacity-80" />
+        <FloatingLamp className="absolute top-50 left-40 w-16 h-16 transform rotate-30 opacity-85" />
+        <FloatingLamp className="absolute top-70 left-60 w-14 h-14 transform rotate-15 opacity-80" />
+        <FloatingLamp className="absolute top-90 left-80 w-12 h-12 transform rotate-25 opacity-75" />
+        <FloatingLamp className="absolute top-110 left-100 w-13 h-13 transform rotate-10 opacity-85" />
+        <FloatingLamp className="absolute top-130 left-120 w-16 h-16 transform rotate-35 opacity-75" />
+        <FloatingLamp className="absolute top-150 left-140 w-15 h-15 transform rotate-22 opacity-85" />
+        <FloatingLamp className="absolute top-170 left-160 w-16 h-16 transform rotate-18 opacity-80" />
+        <FloatingLamp className="absolute top-190 left-180 w-13 h-13 transform rotate-28 opacity-85" />
 
 
-        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-40 h-40 transform rotate-15 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-40 h-40 transform rotate-25 opacity-75" />
-        <FloatingLamp className="hidden lg:block absolute top-100 left-100 w-40 h-40 transform rotate-10 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-120 left-120 w-32 h-32 transform rotate-35 opacity-75" />
-        <FloatingLamp className="hidden lg:block absolute top-140 left-140 w-40 h-40 transform rotate-22 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-160 left-160 w-32 h-32 transform rotate-18 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-180 left-180 w-40 h-40 transform rotate-28 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-14 h-14 transform rotate-30 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-14 h-14 transform rotate-15 opacity-80" />
+        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-10 h-10 transform rotate-25 opacity-75" />
+        <FloatingLamp className="hidden lg:block absolute top-100 left-100 w-12 h-12 transform rotate-10 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-120 left-120 w-13 h-13 transform rotate-35 opacity-75" />
+        <FloatingLamp className="hidden lg:block absolute top-140 left-140 w-14 h-14 transform rotate-22 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-160 left-160 w-13 h-13 transform rotate-18 opacity-80" />
+        <FloatingLamp className="hidden lg:block absolute top-180 left-180 w-14 h-14 transform rotate-28 opacity-85" />
 
-        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-40 h-40 transform rotate-15 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-40 h-40 transform rotate-25 opacity-75" />
+        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-14 h-14 transform rotate-30 opacity-85" />
+        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-14 h-14 transform rotate-15 opacity-80" />
+        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-14 h-14 transform rotate-25 opacity-75" />
 
 
 
 
 
         {/* Right-to-Left Lamps - Less crowded */}
-        <FloatingLamp className="absolute top-20 right-12 w-32 h-32 transform -rotate-6 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-40 right-32 w-28 h-28 transform -rotate-12 opacity-75" reverse={true} />
-        <FloatingLamp className="absolute top-60 right-52 w-36 h-36 transform -rotate-20 opacity-90" reverse={true} />
-        <FloatingLamp className="absolute top-80 right-72 w-30 h-30 transform -rotate-8 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-100 right-92 w-34 h-34 transform -rotate-15 opacity-80" reverse={true} />
-        <FloatingLamp className="absolute top-120 right-112 w-38 h-38 transform -rotate-25 opacity-90" reverse={true} />
-        <FloatingLamp className="absolute top-140 right-132 w-26 h-26 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="absolute top-160 right-152 w-32 h-32 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="absolute top-180 right-172 w-36 h-36 transform -rotate-22 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-200 right-192 w-30 h-30 transform -rotate-35 opacity-85" reverse={true} />
+        <FloatingLamp className="absolute top-20 right-12 w-16 h-16 transform -rotate-6 opacity-85" reverse={true} />
+        <FloatingLamp className="absolute top-40 right-32 w-12 h-12 transform -rotate-12 opacity-75" reverse={true} />
+        <FloatingLamp className="absolute top-60 right-52 w-16 h-16 transform -rotate-20 opacity-90" reverse={true} />
+        <FloatingLamp className="absolute top-80 right-72 w-15 h-15 transform -rotate-8 opacity-85" reverse={true} />
+        <FloatingLamp className="absolute top-100 right-92 w-15 h-15 transform -rotate-15 opacity-80" reverse={true} />
+        <FloatingLamp className="absolute top-120 right-112 w-12 h-12 transform -rotate-25 opacity-90" reverse={true} />
+        <FloatingLamp className="absolute top-140 right-132 w-16 h-16 transform -rotate-18 opacity-80" reverse={true} />
+        <FloatingLamp className="absolute top-160 right-152 w-15 h-15 transform -rotate-30 opacity-75" reverse={true} />
+        <FloatingLamp className="absolute top-180 right-172 w-16 h-16 transform -rotate-22 opacity-85" reverse={true} />
+        <FloatingLamp className="absolute top-200 right-192 w-15 h-15 transform -rotate-35 opacity-85" reverse={true} />
 
 
-        <FloatingLamp className="hidden lg:block absolute top-30 right-12 w-40 h-40 transform -rotate-6 opacity-85" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-50 right-32 w-40 h-40 transform -rotate-12 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-70 right-52 w-40 h-40 transform -rotate-20 opacity-90" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-90 right-72 w-40 h-40 transform -rotate-8 opacity-85" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-110 right-92 w-32 h-32 transform -rotate-15 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-130 right-112 w-40 h-40 transform -rotate-25 opacity-90" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-40 h-40 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-32 h-32 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-40 h-40 transform -rotate-22 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-30 right-12 w-12 h-12 transform -rotate-6 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-50 right-32 w-20 h-20 transform -rotate-12 opacity-75" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-70 right-52 w-12 h-12 transform -rotate-20 opacity-90" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-90 right-72 w-12 h-12 transform -rotate-8 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-110 right-92 w-14 h-14 transform -rotate-15 opacity-80" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-130 right-112 w-12 h-12 transform -rotate-25 opacity-90" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-15 h-15 transform -rotate-18 opacity-80" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-16 h-16 transform -rotate-30 opacity-75" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-12 h-12 transform -rotate-22 opacity-85" reverse={true} />
 
 
-        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-40 h-40 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-40 h-40 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-40 h-40 transform -rotate-22 opacity-85" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-12 h-12 transform -rotate-18 opacity-80" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-20 h-20 transform -rotate-30 opacity-75" reverse={true} />
+        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-12 h-12 transform -rotate-22 opacity-85" reverse={true} />
 
-        <div className="lg:pt-40 md:pt-30 md:pb-0 relative z-10 pt-6">
+        <div className="lg:pt-20 md:pt-30 md:pb-0 relative z-10 pt-6">
           <h2 className="text-[#AF630E] text-center leading-tight text-3xl md:text-5xl lg:text-[64px] pb-120
-                          md:pb-400 lg:pb-470 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
+                          md:pb-400 lg:pb-470 3xl:pb-650 flex flex-col items-center gap-y-0 lg:gap-y-5 uppercase">
 
-            <span className="jacques-francois">VEERENDRA</span>
+            <span className="font-Cormorant-upright">Priya</span>
 
-            <span className="jacques-francois text-xl md:text-3xl lg:text-5xl tracking-widest font-cormorant">WEDS</span>
+            <span className="font-Cormorant-upright text-[16px] md:text-3xl lg:text-5xl tracking-widest font-cormorant py-2">WEDS</span>
 
-            <span className="jacques-francois">MEERA</span>
+            <span className="font-Cormorant-upright">Raunak</span>
 
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
-            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम</p>
+            <p className="font-Cormorant-upright text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम</p>
             <Image
               src="/assets/ganesha.webp"
-              alt="idol"  width={100} height={100}
-              className="w-23 h-30 md:w-35 md:h-46 lg:w-41 lg:h-53  object-cover"/>
+              alt="idol" width={100} height={100}
+              className="w-23 h-30 md:w-35 md:h-46 lg:w-41 lg:h-53  object-cover" />
 
-            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] md:pt-8 jacques-francois">
-              With the heavenly blessings of <br />
-              Shri Rajesh Gaur & Shrimati Sunita Gaur
+
+
+
+            <h2 className="text-[#FFF097] text-xl md:text-xl lg:text-[26px] md:pt-8 font-Cormorant-upright px-2">
+              With the blessings of <br />
+              Smt Gaurav Devi Tenani & Late Shri Kishan Lal Ji Tenani
             </h2>
 
-            <hr className="lg:w-24 w-16 border-[#FFF097] my-2 md:my-4" />
-            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] jacques-francois">
-              Shri Amit Chauhan & Shrimati Vaishali Chauhan
+
+            <h2 className="text-[#FFF097] text-2xl md:text-xl lg:text-[26px] md:pt-8 font-Cormorant-upright px-2">
+              Tenani Family
             </h2>
+
           </div>
 
-          <div className="mt-8 text-center">
-            <h2 className="text-[#FFF097] jacques-francois text-3xl md:text-5xl lg:text-[64px] leading-tight lg:tracking-wide tracking-wider">
+          <div className="mt-8 text-center px-4">
+            <h2 className="text-[#FFF097] font-Cormorant-upright text-3xl md:text-5xl lg:text-[64px] leading-tight lg:tracking-wide tracking-wider">
               INVITE
             </h2>
 
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-[26px] mt-6">
+            <p className="text-[#FFF097] font-Cormorant-upright text-xl md:text-xl lg:text-[26px] mt-6">
               You to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
-              VEERENDRA
+            <h2 className="text-[#FFF097] font-Cormorant-upright text-center mt-14 text-5xl md:text-5xl lg:text-[64px] leading-tight font-medium">
+              Priya
             </h2>
-
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-0 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
-              <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">&
-              </span>   <br />
-              MEERA
-            </h2>
-
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8 md:mt-14">
-              Daughter of <br /> Shri Mahesh Rajput & Shrimati Asha Rajput
+            <p className="text-[#FFF097] font-Cormorant-upright text-xl md:text-xl lg:text-3xl md:mt-14 mt-2">
+              (Daughter of Mrs. Premlata & Mr. Giraj Ratan Ji Tenani)
             </p>
 
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8">
+            <h2 className="text-[#FFF097] font-Cormorant-upright text-center mt-0 text-5xl md:text-5xl lg:text-[64px] leading-tight font-medium">
+              <span className="text-[#FFF097] font-Cormorant-upright text-center lg:mt-10 mt-0 text-5xl md:text-3xl lg:text-5xl leading-tight">&
+              </span>   <br />
+              Raunak
+            </h2>
+
+            <p className="text-[#FFF097] font-Cormorant-upright text-xl md:text-xl lg:text-3xl md:mt-14">
+              (Son of Mrs. Rajshree & Mr. Ram Kishan Ji Chandak)
+            </p>
+
+            <p className="text-[#FFF097] font-Cormorant-upright text-2xl md:text-xl lg:text-3xl mt-12">
               On the following events
             </p>
           </div>
@@ -270,19 +294,27 @@ export default function Home() {
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    className="lg:w-80 w-75 sm:w-76 h-auto"/>
+                    className="lg:w-80 w-75 sm:w-76 h-auto" />
 
-                  <h2 className="text-[#FFF097] jacques-francois lg:text-[45px] md:text-2xl text-3xl mt-4">
+                  <h2 className="text-[#FFF097] font-Cormorant-upright lg:text-[45px] md:text-2xl text-4xl font-semibold mt-4">
                     {event.title_ceremony}
                   </h2>
+                  <p className="text-[#FFF097] font-Cormorant-upright text-[20px] sm:text-base">{event.date}
 
-                  <p className="text-[#FFF097] jacques-francois text-[14px] sm:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-[20px]">{event.venue_address}</span> <br />
+                  </p>
+                  <p className="text-[#FFF097] font-Cormorant-upright text-[20px] sm:text-base">{event.time}
+
+                  </p>
+                  <p className="text-[#FFF097] font-Cormorant-upright text-[20px] sm:text-base">
+                    {event.venue}
+                  </p>
+                  <p className="text-[#FFF097] font-Cormorant-upright text-[20px] sm:text-base">
+                    {event.venue_address}
                   </p>
 
                   <a
                     href={event.link}
-                    className="text-[#FFF097] underline md:text-sm text-[18px] mt-2 jacques-francois"
+                    className="text-[#FFF097] underline md:text-sm text-[18px] font-Cormorant-upright"
                     target="_blank">
                     See the route
                   </a>
@@ -297,10 +329,10 @@ export default function Home() {
             <Image
               src="/assets/couple_one.webp"
               alt="couple" width={900} height={1200}
-              className="w-65 h-90 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-346 object-cover"/>
+              className="w-65 h-90 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-176 object-cover" />
 
             {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0">
+            <div className="flex flex-col justify-center items-center text-center mb-20 lg:mb-0 -ml-6">
               <p className="font-Cormorant-upright text-2xl md:text-2xl lg:text-[38px] text-[#FFF097]">
                 MEET THE
               </p>
@@ -310,30 +342,29 @@ export default function Home() {
               </h2>
             </div>
           </div>
-          
+
         </div>
       </div>
 
       <CoupleMessage />
 
-      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-255 md:h-179 lg:h-333 3xl:h-419 flex flex-col items-center relative">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-28 w-42 h-48 md:top-41 md:w-28 md:h-35 lg:top-78 lg:w-48 lg:h-55 3xl:top-101" />
-        </div>
-      </div>
+      <picture className="block w-full">
+        <source
+          media="(min-width: 768px)"
+          srcSet="/assets/bg_three.webp"
+        />
+
+        <img
+          src="/assets/respo_three.webp"
+          alt=""
+          className="block w-full h-auto"
+        />
+      </picture>
+
+
 
       <MarriageCountdown />
 
-      <div className="fixed top-5 left-5 z-50">
-        <a href="https://invitearc.com/">
-          <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
-            <span className="text-3xl leading-none">←</span>
-            <span className="text-[16px] font-semibold">
-              Exit Preview
-            </span>
-          </button>
-        </a>
-      </div>
     </>
   );
 }

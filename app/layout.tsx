@@ -15,19 +15,19 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aura-demo-flame.vercel.app/"),
+  metadataBase: new URL("https://priyaandraunak.vercel.app/"),
 
   openGraph: {
-    title: "Veerendra & Meera",
-    description: "Join as they begin their forever. 8, 9 & 11 March 2026",
-    url: "https://aura-demo-flame.vercel.app/",
+    title: "Priya & Raunak",
+    description: "Join as they begin their forever.  9 & 10 December 2026",
+    url: "https://priyaandraunak.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Veerendra & Meera ",
+        alt: "Priya & Raunak ",
       }, 
     ],
     type: "website",
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Veerendra & Meera",
-    description: "Join as they begin their forever. 8, 9 & 11 March, 2026",
+    title: "Priya & Raunak",
+    description: "Join as they begin their forever. 9 & 10 December 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://aura-demo-flame.vercel.app/og.jpg",
+    "og:image:secure_url": "https://priyaandraunak.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
