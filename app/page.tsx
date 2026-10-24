@@ -247,7 +247,7 @@ export default function Home() {
 
             <h2 className="text-[#FFF097] text-xl md:text-xl lg:text-[26px] md:pt-8 font-Cormorant-upright px-2">
               With the blessings of <br />
-              Smt Gaurav Devi Tenani & Late Shri Kishan Lal Ji Tenani
+              Smt Gaura Devi Tenani & Late Shri Kishan Lal Ji Tenani
             </h2>
 
 
@@ -270,7 +270,7 @@ export default function Home() {
               Priya
             </h2>
             <p className="text-[#FFF097] font-Cormorant-upright text-xl md:text-xl lg:text-3xl md:mt-14 mt-2">
-              (Daughter of Mrs. Premlata & Mr. Giraj Ratan Ji Tenani)
+              (Daughter of Mrs. Prem Lata & Mr. Giraj Ratan Ji Tenani)
             </p>
 
             <h2 className="text-[#FFF097] font-Cormorant-upright text-center mt-0 text-5xl md:text-5xl lg:text-[64px] leading-tight font-medium">

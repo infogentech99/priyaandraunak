@@ -143,9 +143,9 @@ export default function CoupleMessage() {
               </h2>
               <h2 className="font-cormorant-upright text-[17px] md:text-base lg:text-[22px] text-[#FFF097] font-Cormorant-upright-upright text-center">
                 Ramesh Kumar Tenani <br /> Rajshree- Ajay Kumar Tenani <br />{" "}
-                Sunita - Suresh Kumar Tenani <br /> Shumbhushree - Anay Tenani{" "}
+                Sunita - Suresh Kumar Tenani <br /> Shubham Shree - Anay Tenani{" "}
                 <br /> Namarta - Kaushal Tenani <br />
-                Shyam - Kailash Singhi
+                Shyama - Kailash Singhi
               </h2>
 
               <h2 className="font-cormorant-upright text-xl md:text-base lg:text-[22px] text-[#FFF097] font-Cormorant-upright-upright uppercase mt-4 text-center font-semibold">
