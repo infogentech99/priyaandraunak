@@ -28,7 +28,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/respo_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-      <div className="h-785 md:h-660 lg:h-975 3xl:h-1080">
+      <div className="h-710 md:h-580 lg:h-810 3xl:h-870">
         <h1 className="text-3xl md:text-2xl lg:text-[36px] 3xl:text-[66px] text-center text-[#FFF097] lg:pt-40 pt-20 font-Cormorant-upright">
           A message from the couple
         </h1>
@@ -166,11 +166,11 @@ export default function CoupleMessage() {
               </h2>
             </div>
           </div>
-          <img
+          {/* <img
             src="/assets/couple_second.webp"
             alt="couple"
             className="w-108 h-88 md:w-205 md:h-103 lg:w-381 lg:h-192 3xl:w-480 3xl:h-243 object-cover"
-          />
+          /> */}
         </div>
       </div>
     </div>
