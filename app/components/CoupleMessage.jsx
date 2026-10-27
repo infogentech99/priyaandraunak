@@ -28,7 +28,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/respo_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-      <div className="h-710 md:h-580 lg:h-810 3xl:h-870">
+      <div className="h-640 md:h-580 lg:h-810 3xl:h-870">
         <h1 className="text-3xl md:text-2xl lg:text-[36px] 3xl:text-[66px] text-center text-[#FFF097] lg:pt-40 pt-20 font-Cormorant-upright">
           A message from the couple
         </h1>
@@ -83,7 +83,7 @@ export default function CoupleMessage() {
           before the big day.
         </h2>
         <div className="flex justify-center mt-20 pb-24 md:pb-0">
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-50 3xl:gap-60">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 md:gap-14 lg:gap-50 3xl:gap-60">
             <div className="flex flex-col items-center justify-center text-center">
               <img
                 src="/assets/weather.webp"
@@ -109,26 +109,10 @@ export default function CoupleMessage() {
                 Staff
               </h2>
               <p className="text-[18px] lg:text-[15px] leading-5 text-[#FFF097] mt-1 font-Cormorant-upright">
-                We recommend the nearby <br />
-                lodge called VEGA near the <br />
-                venue for the staff members
+                We recommend the nearby <br/> lodge  for staff members staying <br/> close to the venue.
               </p>
             </div>
-            <div className="flex flex-col items-center justify-center text-center">
-              <img
-                src="/assets/parking.webp"
-                alt="car"
-                className="lg:h-27 lg:w-30 h-26 w-32 "
-              />
-              <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#FFF097] mt-2 font-Cormorant-upright">
-                Parking
-              </h2>
-              <p className="text-[18px] lg:text-[15px] leading-5 text-[#FFF097] mt-1 font-Cormorant-upright">
-                Valet parking for all our <br />
-                guests will be available <br />
-                at the venue
-              </p>
-            </div>
+         
           </div>
         </div>
 
