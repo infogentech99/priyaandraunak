@@ -50,10 +50,10 @@ export default function Home() {
       time: "9:00am Onwards",
       venue: "Hotel Park Paradise",
       venue_address: <>25-26, Road No. 4, Industrial Area, <br />Rani Bazar, Bikaner</>,
-      link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
+      link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
     },
     {
-      title_ceremony: "Phool Ki Holi",
+      title_ceremony: "Phoolo Ki Holi",
       image: "/assets/phool.webp",
       date: "Wednesday, December 9th 2026",
       time: "11:00am Onwards",
@@ -236,7 +236,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
-            <p className="font-Cormorant-upright text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम</p>
+            <p className="font-Cormorant-upright text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम:</p>
             <Image
               src="/assets/ganesha.webp"
               alt="idol" width={100} height={100}
@@ -259,7 +259,7 @@ export default function Home() {
 
           <div className="mt-8 text-center px-4">
             <h2 className="text-[#FFF097] font-Cormorant-upright text-3xl md:text-5xl lg:text-[64px] leading-tight lg:tracking-wide tracking-wider">
-              INVITE
+              INVITES
             </h2>
 
             <p className="text-[#FFF097] font-Cormorant-upright text-xl md:text-xl lg:text-[26px] mt-6">
