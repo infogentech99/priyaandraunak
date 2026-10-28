@@ -53,7 +53,7 @@ export default function Home() {
       link: "https://maps.app.goo.gl/UNL6QBnmGd6xqUi37",
     },
     {
-      title_ceremony: "Phoolo Ki Holi",
+      title_ceremony: "Phoolon Ki Holi",
       image: "/assets/phool.webp",
       date: "Wednesday, December 9th 2026",
       time: "11:00am Onwards",
